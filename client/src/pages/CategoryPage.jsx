@@ -18,7 +18,7 @@ const CategoryPage = () => {
   const getFeedListings = async () => {
     try {
       const response = await fetch(
-          `https://dream-nest-kappa.vercel.app/properties?category=${category}`,
+          `https://dream-nest-api.vercel.app/properties?category=${category}`,
         {
           method: "GET",
         }

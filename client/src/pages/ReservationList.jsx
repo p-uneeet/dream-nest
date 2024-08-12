@@ -17,7 +17,7 @@ const ReservationList = () => {
   const getReservationList = async () => {
     try {
       const response = await fetch(
-        `https://dream-nest-kappa.vercel.app/users/${userId}/reservations`,
+        `https://dream-nest-api.vercel.app/users/${userId}/reservations`,
         {
           method: "GET",
         }

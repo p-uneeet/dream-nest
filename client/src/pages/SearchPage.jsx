@@ -17,7 +17,7 @@ const SearchPage = () => {
 
   const getSearchListings = async () => {
     try {
-      const response = await fetch(`https://dream-nest-kappa.vercel.app/properties/search/${search}`, {
+      const response = await fetch(`https://dream-nest-api.vercel.app/properties/search/${search}`, {
         method: "GET"
       })
 

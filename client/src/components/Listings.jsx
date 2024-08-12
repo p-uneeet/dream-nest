@@ -18,8 +18,8 @@ const Listings = () => {
     try {
       const response = await fetch(
         selectedCategory !== "All"
-          ? `https://dream-nest-kappa.vercel.app/properties?category=${selectedCategory}`
-          : "https://dream-nest-kappa.vercel.app/properties",
+          ? `https://dream-nest-api.vercel.app/properties?category=${selectedCategory}`
+          : "https://dream-nest-api.vercel.app/properties",
         {
           method: "GET",
         }

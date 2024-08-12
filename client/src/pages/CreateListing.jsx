@@ -128,7 +128,7 @@ const CreateListing = () => {
       });
 
       /* Send a POST request to server */
-      const response = await fetch("https://dream-nest-kappa.vercel.app/properties/create", {
+      const response = await fetch("https://dream-nest-api.vercel.app/properties/create", {
         method: "POST",
         body: listingForm,
       });

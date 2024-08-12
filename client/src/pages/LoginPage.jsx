@@ -16,7 +16,7 @@ const LoginPage = () => {
     e.preventDefault()
 
     try {
-      const response = await fetch ("https://dream-nest-kappa.vercel.app/auth/login", {
+      const response = await fetch ("https://dream-nest-api.vercel.app/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
